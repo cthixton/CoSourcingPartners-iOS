@@ -1,0 +1,515 @@
+{
+  "general": {
+    "screenOrientation": {
+      "iphone": null,
+      "ipad": null,
+      "androidPhone": null,
+      "androidTablet": null
+    },
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "nativeBridgeUrls": [],
+    "languages": [],
+    "userAgentAdd": "median",
+    "enableWindowOpen": true,
+    "forceUserAgent": "",
+    "publicKey": "erpryj",
+    "deviceRegKey": "1e63b534r0yp451vkc84rbxwx0",
+    "appName": "CoSourcing Partners",
+    "initialUrl": "https://cosourcingpartners.com",
+    "androidPackageName": "co.median.android.erpryj",
+    "iosBundleId": "co.median.ios.erpryj",
+    "keepScreenOn": null,
+    "iosUserAgentAdd": "median",
+    "iosForceUserAgent": "",
+    "androidUserAgentAdd": "median",
+    "androidForceUserAgent": "",
+    "androidSigningKey": "release",
+    "injectMedianJS": true,
+    "forceSessionCookieExpiry": 0,
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {},
+    "version": 1
+  },
+  "navigation": {
+    "tabNavigation": {
+      "tabSelectionConfig": [],
+      "tabMenus": [],
+      "active": false
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [
+            {
+              "url": "https://cosourcingpartners.com/#",
+              "label": "Polaris-ai",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/polaris-ai/sales-enablement/",
+              "label": "For sales",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/polaris-ai/recruiting-staffing/",
+              "label": "For staffing",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/",
+              "label": "Enterprise-ai",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/advisory-services/",
+              "label": "Advisory & enablement services",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/process-identification-services/",
+              "label": "Process identification",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/process-assessment-services/",
+              "label": "Process assessment",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/private-automation-cloud/",
+              "label": "Private automation cloud",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/rpa-development-center/",
+              "label": "Development center",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/enterprise-development-team/",
+              "label": "Enterprise development team",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/automation-as-a-service/",
+              "label": "Automation as a service",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/intelligent-automation-staffing/",
+              "label": "Automation staffing",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/enterprise-ai/governance/",
+              "label": "Governance",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/",
+              "label": "Industry experience",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/manufacturing-distribution/",
+              "label": "Manufacturing & distribution",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/transportation-logistics/",
+              "label": "Transportation & logistics",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/insurance/",
+              "label": "Insurance",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/banking-financial-services/",
+              "label": "Banking & finance",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/healthcare/",
+              "label": "Healthcare",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/government-education/",
+              "label": "State & local government",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industries/government-education/#education",
+              "label": "Education",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/industry-experience/cross-industry-rpa/",
+              "label": "Cross-industry rpa",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/why-rpa/",
+              "label": "Insights",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/videos/",
+              "label": "Videos",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/blog/",
+              "label": "Blog",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/about-us/",
+              "label": "About",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/about-us/#leadership",
+              "label": "Leadership team",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/open-positions/",
+              "label": "Careers",
+              "subLinks": []
+            },
+            {
+              "url": "https://cosourcingpartners.com/contact-us/",
+              "label": "Contact us",
+              "subLinks": []
+            }
+          ],
+          "name": "default"
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "mode": "external",
+          "label": "Non-web links",
+          "pagesToTrigger": "custom",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Facebook",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Twitter/X",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([\\-\\w]+\\.)*(twitter|x)\\.com/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Instagram",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Google Maps",
+          "pagesToTrigger": "custom",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Google Maps Search",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "LinkedIn",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "mode": "internal",
+          "label": "Microsoft Login",
+          "pagesToTrigger": "custom",
+          "regex": "https?://login\\.microsoftonline\\.com.*"
+        },
+        {
+          "mode": "internal",
+          "label": "All pages on my domain",
+          "pagesToTrigger": "domain",
+          "regex": "https?:\\/\\/([-\\w]+\\.)*cosourcingpartners.com(\\/.*)?$"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "All Other Links",
+          "pagesToTrigger": "all",
+          "regex": ".*"
+        }
+      ],
+      "active": true
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": true,
+    "navigationTitles": {
+      "titles": [],
+      "active": true
+    },
+    "ignorePageFinishedRegexes": [],
+    "actionConfig": {
+      "actions": [],
+      "actionSelection": [],
+      "active": true
+    },
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": {
+      "domains": [],
+      "enableAndroidApplinks": false
+    },
+    "navigationLevels": {
+      "levels": [],
+      "active": true
+    },
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "redirects": [],
+    "iosShowOfflinePage": true,
+    "iosConnectionOfflineTime": 10,
+    "androidShowOfflinePage": true,
+    "androidConnectionOfflineTime": 10,
+    "iosSettings": {},
+    "swipeGestures": null,
+    "maxWindows": {
+      "enabled": false,
+      "numWindows": 5,
+      "autoClose": false
+    }
+  },
+  "styling": {
+    "splashScreen": {
+      "ios": {
+        "animationLoop": "once",
+        "backgroundColor": "#FFFFFF",
+        "backgroundColorDark": "#000000",
+        "backgroundImage": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793593_n3g2abyxhetda_FFFFFF_1_2x2.png",
+        "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793615_e5daf8zhtt8rp_000000_1_2x2.png",
+        "animated": false,
+        "centerImage": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+        "centerImageDark": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+        "animation": null,
+        "animationDark": null,
+        "animationFrame": null,
+        "animationFrameDark": null
+      },
+      "android": {
+        "launchImages": {
+          "mdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793772_tn6j5nhkkdmxg_180x180.png",
+          "hdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793789_g6ebpx5whc4qr_270x270.png",
+          "xhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793807_uzxr4pkathy9p_360x360.png",
+          "xxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793821_8n16j0zu16vha_540x540.png",
+          "xxxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793855_80mk8tnt5qfhj_720x720.png"
+        },
+        "launchImagesDark": {
+          "mdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793893_8kqgxpg5x4hy2_180x180.png",
+          "hdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793914_pcxvd52rq3yx2_270x270.png",
+          "xhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793947_n9qkwfrjrkf02_360x360.png",
+          "xxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435793978_2jv0wughe4j5r_540x540.png",
+          "xxxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/1733435794031_d7vmak90a6kre_720x720.png"
+        },
+        "showSplash": true,
+        "animationLoop": "once",
+        "backgroundColor": "#FFFFFF",
+        "backgroundColorDark": "#000000",
+        "animated": false,
+        "animation": null,
+        "animationDark": null,
+        "animationFrame": null,
+        "animationFrameDark": null
+      }
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "iosDarkMode": "auto",
+    "iosTitleColor": "#0E0D08",
+    "iosTitleColorDark": "#ffffff",
+    "iosTintColor": "#0E0D08",
+    "iosTintColorDark": "#ffffff",
+    "iosSidebarTextColor": "#0E0D08",
+    "iosSidebarTextColorDark": "#ffffff",
+    "iosStatusBarBackgroundColor": "#ffffffff",
+    "iosStatusBarBackgroundColorDark": "#000000",
+    "iosEnableBlurInStatusBar": false,
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#202020",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#202020",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#000000",
+    "icon": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+    "iosHeaderImage": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "auto",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#1A100B",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarForegroundColor": "#1A100B",
+    "androidPullToRefreshColor": "#1A100B",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarHighlightColor": "#1A100B",
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarIndicatorColor": "#1A100B",
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidStatusBarBackgroundColor": "#5C5C5C",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidStatusBarBackgroundColorDark": "#333333",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "androidAccentColorDark": "#80cbc4",
+    "androidBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "androidSystemNavBarColor": "#FFFFFF",
+    "androidSystemNavBarColorDark": "#000000",
+    "androidWebviewTextZoom": null,
+    "androidIcon": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+    "iosIcon": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+    "customIcons": {},
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "iosActivityIndicatorColor": "#808080",
+    "iosActivityIndicatorColorDark": "#808080",
+    "androidActivityIndicatorColor": "#808080",
+    "androidActivityIndicatorColorDark": "#808080",
+    "forceViewportWidth": null,
+    "pinchToZoom": null,
+    "iosDynamicType": null,
+    "navigationTitleImageLocation": "assets/defaults/app-icon-placeholder.png",
+    "navigationTitleImageLocationDark": "assets/defaults/app-icon-placeholder.png",
+    "androidHeaderImage": "assets/defaults/app-icon-placeholder.png",
+    "androidHeaderImageDark": "assets/defaults/app-icon-placeholder.png",
+    "iosHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/erpryj/app_icon_wwkz71qt9ab2j_1733435793.png",
+    "iosTabBarInactiveColor": "#A1A1A1",
+    "iosTabBarInactiveColorDark": "#818181"
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTCamera": false,
+    "enableWebRTCMicrophone": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "iosMicrophoneUsageDescription": "",
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignalV5": {
+      "active": false
+    }
+  },
+  "contextMenu": {
+    "linkActions": [
+      "copyLink",
+      "openExternal"
+    ],
+    "enabled": false
+  },
+  "allowZoom": null,
+  "security": {
+    "network": {
+      "allowInsecure": null
+    }
+  }
+}

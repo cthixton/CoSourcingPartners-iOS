@@ -97,6 +97,100 @@
 		39D073812BBB12EA004FF636 /* LEANPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D073802BBB12EA004FF636 /* LEANPDFManager.m */; };
 		39DE1B492935E67F0001E926 /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1B482935E67F0001E926 /* GNLogManager.m */; };
 		39DE1E4D2C82015900E96CFE /* LEANLoadingSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */; };
+		649254EB2DEF6D9C00707BAA /* LEANJsCustomCodeExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2018EE931907671A00EC5312 /* LEANJsCustomCodeExecutor.m */; };
+		649254EC2DEF6D9C00707BAA /* LEANWebViewIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 2004AF7A18F8F936001E01E9 /* LEANWebViewIntercept.m */; };
+		649254ED2DEF6D9C00707BAA /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4E418A99A9900495B3D /* UIViewController+REFrostedViewController.m */; };
+		649254EE2DEF6D9C00707BAA /* LEANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4F318A99C4100495B3D /* LEANNavigationController.m */; };
+		649254EF2DEF6D9C00707BAA /* CustomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3972F5322D59C143009B5279 /* CustomMenu.swift */; };
+		649254F02DEF6D9C00707BAA /* LEANWindowsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 395C156F2B75D19D00E2985D /* LEANWindowsManager.m */; };
+		649254F12DEF6D9C00707BAA /* GNSwiftUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E3D422A2147C4001C8A01 /* GNSwiftUtilities.swift */; };
+		649254F22DEF6D9C00707BAA /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC8EFD2677BE470083982E /* WindowsController.swift */; };
+		649254F32DEF6D9C00707BAA /* LEANWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4B418A9991300495B3D /* LEANWebViewController.m */; };
+		649254F42DEF6D9C00707BAA /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4DC18A99A9900495B3D /* REFrostedContainerViewController.m */; };
+		649254F52DEF6D9C00707BAA /* LEANActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D77B6F1A2547E5008A938D /* LEANActionManager.m */; };
+		649254F62DEF6D9C00707BAA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 202E989419EF30C8009C28AD /* Reachability.m */; };
+		649254F72DEF6D9C00707BAA /* LEANLoadingSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */; };
+		649254F82DEF6D9C00707BAA /* LEANPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D073802BBB12EA004FF636 /* LEANPDFManager.m */; };
+		649254F92DEF6D9C00707BAA /* LEANLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2089662618AC6753007FC34F /* LEANLoginManager.m */; };
+		649254FA2DEF6D9C00707BAA /* LEANUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4F718A99C4100495B3D /* LEANUtilities.m */; };
+		649254FB2DEF6D9C00707BAA /* MedianEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */; };
+		649254FC2DEF6D9C00707BAA /* LEANKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 397F6C0B2AC14B4A00BD0474 /* LEANKeyboardManager.m */; };
+		649254FD2DEF6D9C00707BAA /* LEANWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E49F8119A2C30C00B9343E /* LEANWebViewPool.m */; };
+		649254FE2DEF6D9C00707BAA /* GNRegistrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2046CAF91BC0790800714F66 /* GNRegistrationManager.m */; };
+		649254FF2DEF6D9C00707BAA /* LEANToolbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F38BAD1B0D5AC700E90B4D /* LEANToolbarManager.m */; };
+		649255002DEF6D9C00707BAA /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D783E18F9A4F7005DD37E /* GTMNSString+HTML.m */; };
+		649255012DEF6D9C00707BAA /* LEANDocumentSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6B55419AC4C2E004019C4 /* LEANDocumentSharer.m */; };
+		649255022DEF6D9C00707BAA /* LEANConfigUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7FF04197F6DDE006FDF44 /* LEANConfigUpdater.m */; };
+		649255032DEF6D9C00707BAA /* GNBackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 209A964223BABF2D001906F1 /* GNBackgroundAudio.m */; };
+		649255042DEF6D9C00707BAA /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E68A8273C731E004846A3 /* GNJSBridgeInterface.m */; };
+		649255052DEF6D9C00707BAA /* LEANRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4F518A99C4100495B3D /* LEANRootViewController.m */; };
+		649255062DEF6D9C00707BAA /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4DA18A99A9900495B3D /* RECommonFunctions.m */; };
+		649255072DEF6D9C00707BAA /* LEANInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 201AB2D51996AD66008C31BF /* LEANInstallation.m */; };
+		649255082DEF6D9C00707BAA /* LEANIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A3B002631D2A7002C38F1 /* LEANIcons.swift */; };
+		649255092DEF6D9C00707BAA /* LEANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4AB18A9991300495B3D /* LEANAppDelegate.m */; };
+		6492550A2DEF6D9C00707BAA /* LEANProfilePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 20191C461923DF6400BF1549 /* LEANProfilePicker.m */; };
+		6492550B2DEF6D9C00707BAA /* NSURL+LEANUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 204AE86218D4D60D009AF272 /* NSURL+LEANUtilities.m */; };
+		6492550C2DEF6D9C00707BAA /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1B482935E67F0001E926 /* GNLogManager.m */; };
+		6492550D2DEF6D9C00707BAA /* GNFileWriterSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20912D722380DB7600506807 /* GNFileWriterSharer.m */; };
+		6492550E2DEF6D9C00707BAA /* GNConfigPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092E237205C3E83005E8B71 /* GNConfigPreferences.m */; };
+		6492550F2DEF6D9C00707BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4A718A9991300495B3D /* main.m */; };
+		649255102DEF6D9C00707BAA /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4DE18A99A9900495B3D /* REFrostedViewController.m */; };
+		649255112DEF6D9C00707BAA /* LEANUrlInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2018EE941907671A00EC4311 /* LEANUrlInspector.m */; };
+		649255122DEF6D9C00707BAA /* GNCustomHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8FFB61EB79D3F000F4CFA /* GNCustomHeaders.m */; };
+		649255132DEF6D9C00707BAA /* ContextMenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */; };
+		649255142DEF6D9C00707BAA /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4E018A99A9900495B3D /* UIImage+REFrostedViewController.m */; };
+		649255152DEF6D9C00707BAA /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4E218A99A9900495B3D /* UIView+REFrostedViewController.m */; };
+		649255162DEF6D9C00707BAA /* LEANTabManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7FB4199D1C7800A70B08 /* LEANTabManager.m */; };
+		649255172DEF6D9C00707BAA /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F42232A970DF9003FD87E /* UIApplication+Extensions.swift */; };
+		649255182DEF6D9C00707BAA /* LEANUrlCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B3218193FA36F0052A7C6 /* LEANUrlCache.m */; };
+		649255192DEF6D9C00707BAA /* LEANLaunchScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C7BFCA2A85E666006AF63C /* LEANLaunchScreenManager.m */; };
+		6492551A2DEF6D9C00707BAA /* LEANMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002B4F118A99C4100495B3D /* LEANMenuViewController.m */; };
+		6492551B2DEF6D9C00707BAA /* LEANRegexRulesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B8E8612858B04A00355B24 /* LEANRegexRulesManager.m */; };
+		6492551D2DEF6D9C00707BAA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5821B9757530064D928 /* Social.framework */; };
+		6492551E2DEF6D9C00707BAA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5801B97574E0064D928 /* Accounts.framework */; };
+		6492551F2DEF6D9C00707BAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE57C1B9757390064D928 /* SystemConfiguration.framework */; };
+		649255202DEF6D9C00707BAA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5781B97572C0064D928 /* Security.framework */; };
+		649255212DEF6D9C00707BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5761B9757240064D928 /* QuartzCore.framework */; };
+		649255222DEF6D9C00707BAA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5741B97571B0064D928 /* CoreLocation.framework */; };
+		649255232DEF6D9C00707BAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5721B97570D0064D928 /* CFNetwork.framework */; };
+		649255242DEF6D9C00707BAA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202BE5701B9757070064D928 /* AudioToolbox.framework */; };
+		649255252DEF6D9C00707BAA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A0B6EC1A363EFB00D9C3F2 /* MessageUI.framework */; };
+		649255262DEF6D9C00707BAA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F49C2619C7BE9100B46C5A /* CoreText.framework */; };
+		649255272DEF6D9C00707BAA /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F49C2419C7BE8900B46C5A /* MediaAccessibility.framework */; };
+		649255282DEF6D9C00707BAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49D18A9991300495B3D /* CoreGraphics.framework */; };
+		649255292DEF6D9C00707BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49F18A9991300495B3D /* UIKit.framework */; };
+		6492552A2DEF6D9C00707BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49B18A9991300495B3D /* Foundation.framework */; };
+		6492552B2DEF6D9C00707BAA /* Pods_CoSourcingPartners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A7750CCAF102B81B90CEED /* Pods_CoSourcingPartners.framework */; };
+		6492552D2DEF6D9C00707BAA /* custom-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20B927A928C4EFE9004D4C15 /* custom-icons.ttf */; };
+		6492552E2DEF6D9C00707BAA /* jquery-2.1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2002B51118AB091C00495B3D /* jquery-2.1.0.min.js */; };
+		6492552F2DEF6D9C00707BAA /* MenuChildNoIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A13ABB1905FAA600B997DD /* MenuChildNoIcon.xib */; };
+		649255302DEF6D9C00707BAA /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */; };
+		649255312DEF6D9C00707BAA /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 20580E021B2E53730061943C /* offline.html */; };
+		649255322DEF6D9C00707BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AEC8C9234BE20200DBE24D /* Assets.xcassets */; };
+		649255332DEF6D9C00707BAA /* MenuGroupNoIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A13AB71905DFFC00B997DD /* MenuGroupNoIcon.xib */; };
+		649255342DEF6D9C00707BAA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 37011C952BC40AAE00775CA0 /* PrivacyInfo.xcprivacy */; };
+		649255352DEF6D9C00707BAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2002B4B618A9991300495B3D /* Images.xcassets */; };
+		649255362DEF6D9C00707BAA /* LaunchScreenNoNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207577572195BE3500ADD73A /* LaunchScreenNoNav.storyboard */; };
+		649255372DEF6D9C00707BAA /* iosCustomJS.js in Resources */ = {isa = PBXBuildFile; fileRef = BBED1D642A4CBED900180EBF /* iosCustomJS.js */; };
+		649255382DEF6D9C00707BAA /* MenuChildIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A13AB51905DED100B997DD /* MenuChildIcon.xib */; };
+		649255392DEF6D9C00707BAA /* BlobDownloader.js in Resources */ = {isa = PBXBuildFile; fileRef = 20890D862383421800BC9335 /* BlobDownloader.js */; };
+		6492553A2DEF6D9C00707BAA /* iosCustomCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = BBED1D622A4CBEC900180EBF /* iosCustomCSS.css */; };
+		6492553B2DEF6D9C00707BAA /* LaunchScreenNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207577592195D80300ADD73A /* LaunchScreenNav.storyboard */; };
+		6492553C2DEF6D9C00707BAA /* localCache.zip in Resources */ = {isa = PBXBuildFile; fileRef = 209B321C193FB11A0052A7C6 /* localCache.zip */; };
+		6492553D2DEF6D9C00707BAA /* customJS.js in Resources */ = {isa = PBXBuildFile; fileRef = BBED1D602A4CBEB000180EBF /* customJS.js */; };
+		6492553E2DEF6D9C00707BAA /* custom-icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 20DDA55A28BE706D00635E59 /* custom-icons.json */; };
+		6492553F2DEF6D9C00707BAA /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 209A964423BAC508001906F1 /* appbeep.wav */; };
+		649255402DEF6D9C00707BAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBD972F127AF17C500AD4FC0 /* GoogleService-Info.plist */; };
+		649255412DEF6D9C00707BAA /* appConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A9F41191AEBAD0049E664 /* appConfig.json */; };
+		649255422DEF6D9C00707BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2002B4AD18A9991300495B3D /* Main.storyboard */; };
+		649255432DEF6D9C00707BAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374399B42C2229E300B2F92D /* InfoPlist.strings */; };
+		649255442DEF6D9C00707BAA /* SidebarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2004820418B080DD005FDD9A /* SidebarHeaderView.xib */; };
+		649255452DEF6D9C00707BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2075775521957C1600ADD73A /* LaunchScreen.storyboard */; };
+		649255462DEF6D9C00707BAA /* customCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = BBED1D5E2A4CBE9400180EBF /* customCSS.css */; };
+		649255472DEF6D9C00707BAA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A525ED1A7D94EE00936DC5 /* Settings.bundle */; };
+		649255482DEF6D9C00707BAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2002B4A418A9991300495B3D /* InfoPlist.strings */; };
+		649255492DEF6D9C00707BAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20689023215E9FD900419CB2 /* Localizable.strings */; };
+		6492554A2DEF6D9C00707BAA /* MenuGroupIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A13AA71905A43C00B997DD /* MenuGroupIcon.xib */; };
 		93DA21EB31AE6F56B651894C /* Pods_MedianIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */; };
 		BB3C460E26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */; };
 		BB6E68A9273C731E004846A3 /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E68A8273C731E004846A3 /* GNJSBridgeInterface.m */; };
@@ -120,6 +214,16 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2081A2921F33ECE900057E3F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6492554B2DEF6D9C00707BAA /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -271,6 +375,8 @@
 		39DE1E4B2C82014300E96CFE /* LEANLoadingSpinnerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANLoadingSpinnerManager.h; sourceTree = "<group>"; };
 		39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoadingSpinnerManager.m; sourceTree = "<group>"; };
 		4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		649255512DEF6D9D00707BAA /* CoSourcingPartners Que4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoSourcingPartners Que4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649255522DEF6D9D00707BAA /* CoSourcingPartners copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoSourcingPartners copy-Info.plist"; path = "/Users/thomasthixton/Dropbox/Projects/Customers/_c/_CoSourcingPartners/_Projects/_2025/CoSourcePartners-iOS/CoSourcingPartners copy-Info.plist"; sourceTree = "<absolute>"; };
 		74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.debug.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.debug.xcconfig"; sourceTree = "<group>"; };
 		A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.release.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B52EB374B1F6977E970E6EC3 /* Pods-CoSourcingPartners.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoSourcingPartners.release.xcconfig"; path = "Target Support Files/Pods-CoSourcingPartners/Pods-CoSourcingPartners.release.xcconfig"; sourceTree = "<group>"; };
@@ -322,6 +428,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6492551C2DEF6D9C00707BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6492551D2DEF6D9C00707BAA /* Social.framework in Frameworks */,
+				6492551E2DEF6D9C00707BAA /* Accounts.framework in Frameworks */,
+				6492551F2DEF6D9C00707BAA /* SystemConfiguration.framework in Frameworks */,
+				649255202DEF6D9C00707BAA /* Security.framework in Frameworks */,
+				649255212DEF6D9C00707BAA /* QuartzCore.framework in Frameworks */,
+				649255222DEF6D9C00707BAA /* CoreLocation.framework in Frameworks */,
+				649255232DEF6D9C00707BAA /* CFNetwork.framework in Frameworks */,
+				649255242DEF6D9C00707BAA /* AudioToolbox.framework in Frameworks */,
+				649255252DEF6D9C00707BAA /* MessageUI.framework in Frameworks */,
+				649255262DEF6D9C00707BAA /* CoreText.framework in Frameworks */,
+				649255272DEF6D9C00707BAA /* MediaAccessibility.framework in Frameworks */,
+				649255282DEF6D9C00707BAA /* CoreGraphics.framework in Frameworks */,
+				649255292DEF6D9C00707BAA /* UIKit.framework in Frameworks */,
+				6492552A2DEF6D9C00707BAA /* Foundation.framework in Frameworks */,
+				6492552B2DEF6D9C00707BAA /* Pods_CoSourcingPartners.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -334,6 +462,7 @@
 				2002B49A18A9991300495B3D /* Frameworks */,
 				2002B49918A9991300495B3D /* Products */,
 				94421A86163F4578AAF865FD /* Pods */,
+				649255522DEF6D9D00707BAA /* CoSourcingPartners copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,6 +471,7 @@
 			children = (
 				2002B49818A9991300495B3D /* CoSourcingPartners.app */,
 				2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */,
+				649255512DEF6D9D00707BAA /* CoSourcingPartners Que4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -609,6 +739,27 @@
 			productReference = 2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		649254E82DEF6D9C00707BAA /* CoSourcingPartners Que4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6492554E2DEF6D9C00707BAA /* Build configuration list for PBXNativeTarget "CoSourcingPartners Que4" */;
+			buildPhases = (
+				649254E92DEF6D9C00707BAA /* [CP] Check Pods Manifest.lock */,
+				649254EA2DEF6D9C00707BAA /* Sources */,
+				6492551C2DEF6D9C00707BAA /* Frameworks */,
+				6492552C2DEF6D9C00707BAA /* Resources */,
+				6492554B2DEF6D9C00707BAA /* Embed Foundation Extensions */,
+				6492554C2DEF6D9C00707BAA /* [CP] Embed Pods Frameworks */,
+				6492554D2DEF6D9C00707BAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoSourcingPartners Que4";
+			productName = LeanIOS;
+			productReference = 649255512DEF6D9D00707BAA /* CoSourcingPartners Que4.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -679,6 +830,7 @@
 			targets = (
 				2002B49718A9991300495B3D /* CoSourcingPartners */,
 				2002B4BB18A9991300495B3D /* MedianIOSTests */,
+				649254E82DEF6D9C00707BAA /* CoSourcingPartners Que4 */,
 			);
 		};
 /* End PBXProject section */
@@ -729,10 +881,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6492552C2DEF6D9C00707BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6492552D2DEF6D9C00707BAA /* custom-icons.ttf in Resources */,
+				6492552E2DEF6D9C00707BAA /* jquery-2.1.0.min.js in Resources */,
+				6492552F2DEF6D9C00707BAA /* MenuChildNoIcon.xib in Resources */,
+				649255302DEF6D9C00707BAA /* GoNativeJSBridgeLibrary.js in Resources */,
+				649255312DEF6D9C00707BAA /* offline.html in Resources */,
+				649255322DEF6D9C00707BAA /* Assets.xcassets in Resources */,
+				649255332DEF6D9C00707BAA /* MenuGroupNoIcon.xib in Resources */,
+				649255342DEF6D9C00707BAA /* PrivacyInfo.xcprivacy in Resources */,
+				649255352DEF6D9C00707BAA /* Images.xcassets in Resources */,
+				649255362DEF6D9C00707BAA /* LaunchScreenNoNav.storyboard in Resources */,
+				649255372DEF6D9C00707BAA /* iosCustomJS.js in Resources */,
+				649255382DEF6D9C00707BAA /* MenuChildIcon.xib in Resources */,
+				649255392DEF6D9C00707BAA /* BlobDownloader.js in Resources */,
+				6492553A2DEF6D9C00707BAA /* iosCustomCSS.css in Resources */,
+				6492553B2DEF6D9C00707BAA /* LaunchScreenNav.storyboard in Resources */,
+				6492553C2DEF6D9C00707BAA /* localCache.zip in Resources */,
+				6492553D2DEF6D9C00707BAA /* customJS.js in Resources */,
+				6492553E2DEF6D9C00707BAA /* custom-icons.json in Resources */,
+				6492553F2DEF6D9C00707BAA /* appbeep.wav in Resources */,
+				649255402DEF6D9C00707BAA /* GoogleService-Info.plist in Resources */,
+				649255412DEF6D9C00707BAA /* appConfig.json in Resources */,
+				649255422DEF6D9C00707BAA /* Main.storyboard in Resources */,
+				649255432DEF6D9C00707BAA /* InfoPlist.strings in Resources */,
+				649255442DEF6D9C00707BAA /* SidebarHeaderView.xib in Resources */,
+				649255452DEF6D9C00707BAA /* LaunchScreen.storyboard in Resources */,
+				649255462DEF6D9C00707BAA /* customCSS.css in Resources */,
+				649255472DEF6D9C00707BAA /* Settings.bundle in Resources */,
+				649255482DEF6D9C00707BAA /* InfoPlist.strings in Resources */,
+				649255492DEF6D9C00707BAA /* Localizable.strings in Resources */,
+				6492554A2DEF6D9C00707BAA /* MenuGroupIcon.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		6043925E51204310ADE59BA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoSourcingPartners/Pods-CoSourcingPartners-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoNativeCore/GoNativeCore_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoNativeCore/GoNativeCoreResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoNativeCore_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoNativeCoreResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoSourcingPartners/Pods-CoSourcingPartners-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649254E92DEF6D9C00707BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoSourcingPartners-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6492554C2DEF6D9C00707BAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoSourcingPartners/Pods-CoSourcingPartners-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MedianIcons/MedianIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoNativeCore/Binary/GoNativeCore.framework/GoNativeCore",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MedianIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoNativeCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoSourcingPartners/Pods-CoSourcingPartners-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6492554D2DEF6D9C00707BAA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -882,6 +1135,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				2002B4CA18A9991300495B3D /* LeanIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649254EA2DEF6D9C00707BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649254EB2DEF6D9C00707BAA /* LEANJsCustomCodeExecutor.m in Sources */,
+				649254EC2DEF6D9C00707BAA /* LEANWebViewIntercept.m in Sources */,
+				649254ED2DEF6D9C00707BAA /* UIViewController+REFrostedViewController.m in Sources */,
+				649254EE2DEF6D9C00707BAA /* LEANNavigationController.m in Sources */,
+				649254EF2DEF6D9C00707BAA /* CustomMenu.swift in Sources */,
+				649254F02DEF6D9C00707BAA /* LEANWindowsManager.m in Sources */,
+				649254F12DEF6D9C00707BAA /* GNSwiftUtilities.swift in Sources */,
+				649254F22DEF6D9C00707BAA /* WindowsController.swift in Sources */,
+				649254F32DEF6D9C00707BAA /* LEANWebViewController.m in Sources */,
+				649254F42DEF6D9C00707BAA /* REFrostedContainerViewController.m in Sources */,
+				649254F52DEF6D9C00707BAA /* LEANActionManager.m in Sources */,
+				649254F62DEF6D9C00707BAA /* Reachability.m in Sources */,
+				649254F72DEF6D9C00707BAA /* LEANLoadingSpinnerManager.m in Sources */,
+				649254F82DEF6D9C00707BAA /* LEANPDFManager.m in Sources */,
+				649254F92DEF6D9C00707BAA /* LEANLoginManager.m in Sources */,
+				649254FA2DEF6D9C00707BAA /* LEANUtilities.m in Sources */,
+				649254FB2DEF6D9C00707BAA /* MedianEventsManager.m in Sources */,
+				649254FC2DEF6D9C00707BAA /* LEANKeyboardManager.m in Sources */,
+				649254FD2DEF6D9C00707BAA /* LEANWebViewPool.m in Sources */,
+				649254FE2DEF6D9C00707BAA /* GNRegistrationManager.m in Sources */,
+				649254FF2DEF6D9C00707BAA /* LEANToolbarManager.m in Sources */,
+				649255002DEF6D9C00707BAA /* GTMNSString+HTML.m in Sources */,
+				649255012DEF6D9C00707BAA /* LEANDocumentSharer.m in Sources */,
+				649255022DEF6D9C00707BAA /* LEANConfigUpdater.m in Sources */,
+				649255032DEF6D9C00707BAA /* GNBackgroundAudio.m in Sources */,
+				649255042DEF6D9C00707BAA /* GNJSBridgeInterface.m in Sources */,
+				649255052DEF6D9C00707BAA /* LEANRootViewController.m in Sources */,
+				649255062DEF6D9C00707BAA /* RECommonFunctions.m in Sources */,
+				649255072DEF6D9C00707BAA /* LEANInstallation.m in Sources */,
+				649255082DEF6D9C00707BAA /* LEANIcons.swift in Sources */,
+				649255092DEF6D9C00707BAA /* LEANAppDelegate.m in Sources */,
+				6492550A2DEF6D9C00707BAA /* LEANProfilePicker.m in Sources */,
+				6492550B2DEF6D9C00707BAA /* NSURL+LEANUtilities.m in Sources */,
+				6492550C2DEF6D9C00707BAA /* GNLogManager.m in Sources */,
+				6492550D2DEF6D9C00707BAA /* GNFileWriterSharer.m in Sources */,
+				6492550E2DEF6D9C00707BAA /* GNConfigPreferences.m in Sources */,
+				6492550F2DEF6D9C00707BAA /* main.m in Sources */,
+				649255102DEF6D9C00707BAA /* REFrostedViewController.m in Sources */,
+				649255112DEF6D9C00707BAA /* LEANUrlInspector.m in Sources */,
+				649255122DEF6D9C00707BAA /* GNCustomHeaders.m in Sources */,
+				649255132DEF6D9C00707BAA /* ContextMenuHandler.swift in Sources */,
+				649255142DEF6D9C00707BAA /* UIImage+REFrostedViewController.m in Sources */,
+				649255152DEF6D9C00707BAA /* UIView+REFrostedViewController.m in Sources */,
+				649255162DEF6D9C00707BAA /* LEANTabManager.m in Sources */,
+				649255172DEF6D9C00707BAA /* UIApplication+Extensions.swift in Sources */,
+				649255182DEF6D9C00707BAA /* LEANUrlCache.m in Sources */,
+				649255192DEF6D9C00707BAA /* LEANLaunchScreenManager.m in Sources */,
+				6492551A2DEF6D9C00707BAA /* LEANMenuViewController.m in Sources */,
+				6492551B2DEF6D9C00707BAA /* LEANRegexRulesManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1189,6 +1498,93 @@
 			};
 			name = Release;
 		};
+		6492554F2DEF6D9C00707BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62C2191918FD4920916B6A0 /* Pods-CoSourcingPartners.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Project.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 8HD495N2CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					.,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				INFOPLIST_FILE = "CoSourcingPartners copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.que4.cosourcepartners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanIOS/GonativeIO-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GonativeIO-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		649255502DEF6D9C00707BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52EB374B1F6977E970E6EC3 /* Pods-CoSourcingPartners.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Project.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 8HD495N2CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					.,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				INFOPLIST_FILE = "CoSourcingPartners copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.que4.cosourcepartners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanIOS/GonativeIO-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GonativeIO-Swift.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1215,6 +1611,15 @@
 			buildConfigurations = (
 				2002B4D118A9991300495B3D /* Debug */,
 				2002B4D218A9991300495B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6492554E2DEF6D9C00707BAA /* Build configuration list for PBXNativeTarget "CoSourcingPartners Que4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6492554F2DEF6D9C00707BAA /* Debug */,
+				649255502DEF6D9C00707BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
